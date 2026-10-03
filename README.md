@@ -24,14 +24,34 @@
 - 🌍 Build multilingual products with full RTL support.
 - 🎥 Teach programming and AI in Arabic on YouTube.
 
-### 🚀 What I'm building
+### 🚀 What I've built
+
+**Products & platforms** (my own work, most repos private)
 
 | Project | What it is | Stack |
 |---|---|---|
-| **Agentic SDLC Platform** | End-to-end agentic software delivery — requirements, architecture, coding, review, QA and deployment agents, with an Estimation Agent, AI Gateway and FinOps dashboards | .NET 10 · Next.js · PostgreSQL · Claude |
-| **Mawid** | Multi-tenant appointment & booking SaaS — idempotent transactional booking, tenant isolation, trilingual UI | ASP.NET Core · Next.js · PostgreSQL |
-| **LearningAgent** | AI learning agent | C# · LLMs |
+| **Agentic SDLC Platform** | AI agents run the software lifecycle end to end — request, plan, estimate, code, evaluate, PR evidence. Every run is bounded by budget, policy and audit controls, and every token is metered through a provider-neutral AI Gateway | .NET 10 · PostgreSQL · Redis · Next.js · OpenTelemetry · Claude |
+| **PentestAgent** | Authorized-use security agent: statically assesses a whole source tree, ranks verified vulnerabilities, gives remediation and verification steps, and builds a phased remediation plan. Every finding passes a Generator → deterministic Gate → Critic loop | .NET 10 · Next.js · SQL Server · Claude |
+| **LearningAgent** | Technology learning platform: Claude designs curricula, writes cited lessons, generates and grades stage tests inside self-correcting loops; pass rules are enforced in code, with a human review queue | .NET 10 · Next.js · SQL Server · Docker · Claude |
+| **Mawid** | Multi-tenant appointment & booking SaaS — transactional booking, tenant isolation, passwordless customer login, trilingual UI | ASP.NET Core · Next.js · PostgreSQL |
+| **MediCenter** | Medical call-center management system with role-based access for doctors, nurses, secretaries, ambulance drivers and sales; Hebrew RTL UI | ASP.NET Core · Next.js |
+| **DeyaaIdentity** | Central identity for all my products: Keycloak realms as code, PKCE backend-for-frontend clients, OTP for admins, custom passwordless (SMS / magic-link) authenticators | Keycloak · Java 21 · xUnit |
+| **DeyaaKit** | Shared .NET + npm package suite: API hosting pipeline, JWT auth, PostgreSQL data access and migrations, SSRF-safe fetching, a Claude client with prompt caching and cost tracking, OIDC BFF and i18n | .NET 10 · TypeScript · PostgreSQL |
+| **DeyaaPlatform** | Native Linux hosting platform for all my systems: PostgreSQL + pgvector, Caddy TLS, backups, provisioning and app hosting | Ubuntu · PostgreSQL · Caddy · Bash |
 | **DeyaaTechLab** | My professional platform — CMS, articles, case studies, SEO-first, EN/AR/HE | Next.js · .NET 10 · PostgreSQL |
+| **[AI Adoption Playbook](https://github.com/deyaa-taha/ai-adoption-playbook)** | Open, vendor-neutral playbook for bringing AI into an enterprise IT organization — strategy, governance, delivery and ROI, in English and Arabic | Markdown · CC BY 4.0 |
+
+**Enterprise work** (built and led as a team lead; described without internal details)
+
+| Initiative | What I delivered |
+|---|---|
+| **AI adoption program** | Mapped 57 routine processes across nine departments for AI suitability, built an interactive RTL dashboard and set up an internal AI lab |
+| **Enterprise RAG & knowledge platform** | Organization-wide document management with a metadata-driven lifecycle feeding retrieval-augmented AI |
+| **AI training for systems analysts** | Curriculum taking analysts from GenAI basics to specifying RAG and agent use cases |
+| **Legacy modernization** | Migration of a core operational system off a legacy 4GL platform, plus SOAP/WCF → .NET REST conversion tooling |
+| **Mobile incident-reporting app** | Hebrew RTL mobile app with a Next.js BFF in the DMZ and a .NET API on the internal network |
+| **Engineering dashboards** | Fleet management, project portfolio, QA environment versioning and daily team-activity dashboards |
+| **Claude Code skills** | Reusable skills for scaffolding REST APIs, converting SOAP services and running an autonomous build-until-green engineering loop |
 
 ### 🛠️ Tech stack
 
@@ -59,6 +79,9 @@
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat&logo=keycloak&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
 
 ### 🎯 Areas of expertise
 
