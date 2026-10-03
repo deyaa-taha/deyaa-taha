@@ -21,7 +21,7 @@
 - 🤖 Design **agentic systems**: orchestrators, specialized agents, evaluator loops, AI gateways, and cost-aware LLM routing (FinOps).
 - 📚 Build **enterprise RAG** and knowledge platforms with metadata-driven document lifecycles.
 - 🏗️ Architecture style: API-first, Clean Architecture, small verifiable increments, secure by default.
-- 🌍 Build multilingual products — **English / العربية / עברית** with full RTL support.
+- 🌍 Build multilingual products with full RTL support.
 - 🎥 Teach programming and AI in Arabic on YouTube.
 
 ### 🚀 What I'm building
