@@ -49,8 +49,8 @@
 | **Enterprise RAG & knowledge platform** | Organization-wide document management with a metadata-driven lifecycle feeding retrieval-augmented AI |
 | **AI training for systems analysts** | Curriculum taking analysts from GenAI basics to specifying RAG and agent use cases |
 | **Legacy modernization** | Migration of a core operational system off a legacy 4GL platform, plus SOAP/WCF → .NET REST conversion tooling |
-| **Mobile incident-reporting app** | Hebrew RTL mobile app with a Next.js BFF in the DMZ and a .NET API on the internal network |
-| **Engineering dashboards** | Fleet management, project portfolio, QA environment versioning and daily team-activity dashboards |
+| **Mobile app** | Hebrew RTL mobile app with a Next.js BFF in the DMZ and a .NET API on the internal network |
+| **Engineering dashboards** | Fleet management, project portfolio, team-activity dashboards |
 | **Claude Code skills** | Reusable skills for scaffolding REST APIs, converting SOAP services and running an autonomous build-until-green engineering loop |
 
 ### 🛠️ Tech stack
