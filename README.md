@@ -17,7 +17,7 @@
 
 ### 🧭 About me
 
-- 🏢 Lead a software development team in a large Israeli enterprise, and drive AI adoption across the organization — from process mapping to an internal AI lab.
+- 🏢 Lead a software development team in a large enterprise, and drive AI adoption across the organization — from process mapping to an internal AI lab.
 - 🤖 Design **agentic systems**: orchestrators, specialized agents, evaluator loops, AI gateways, and cost-aware LLM routing (FinOps).
 - 📚 Build **enterprise RAG** and knowledge platforms with metadata-driven document lifecycles.
 - 🏗️ Architecture style: API-first, Clean Architecture, small verifiable increments, secure by default.
